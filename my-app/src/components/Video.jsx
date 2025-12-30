@@ -7,24 +7,41 @@ const Video = () => {
     <div>
       <VideoCards
         img={Landscape}
-        author=
+        logo={logo}
         description="Description for service 1"
-        logo={logo}
+        author="gerard"
+        data = "250k de vue . il ya 3 ans"
       />
 
+     <VideoCards
+        img={Landscape}
+        logo={logo}
+        description="Description for service 1"
+        author="gerard"
+        data = "250k de vue . il ya 3 ans"
+      />
       <VideoCards
         img={Landscape}
-        title="Video 2"
-        description="Another description"
         logo={logo}
+        description="Description for service 1"
+        author="gerard"
+        data = "250k de vue . il ya 3 ans"
       />
-
       <VideoCards
         img={Landscape}
-        title="Video 3"
-        description="More content here"
         logo={logo}
+        description="Description for service 1"
+        author="gerard"
+        data = "250k de vue . il ya 3 ans"
       />
+      <VideoCards
+        img={Landscape}
+        logo={logo}
+        description="Description for service 1"
+        author="gerard"
+        data = "250k de vue . il ya 3 ans"
+      />
+      
     </div>
   );
 };
