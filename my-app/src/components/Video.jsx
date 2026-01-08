@@ -1,10 +1,10 @@
-import Landscape from "../assets/téléchargement.png";
+import Landscape from "../assets/chargement.png"
 import logo from "../assets/logo-youtube.jpeg";
 import VideoCards from "./VideoCards";
 
 const Video = () => {
   return (
-    <div>
+    <div className="content">
       <VideoCards
         img={Landscape}
         logo={logo}

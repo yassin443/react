@@ -1,5 +1,3 @@
-import Landscape from "../assets/téléchargement.png"
-import logo  from "../assets/logo-youtube.jpeg"
 const VideoCards = (props) => {
   return (
     <div className="Video">
